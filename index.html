@@ -1,0 +1,186 @@
+<!-- Create a simple webpage using HTML, CSS, and Bootstrap. Your webpage should include a header, a main content section with two columns, and a footer. The header should contain the title of the webpage, the main content section should have some text in each column, and the footer should include copyright information. Use Bootstrap's grid system for creating the layout. Customize the appearance of the header, main content section, and footer using CSS. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Exam-01</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fontawesomee icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      h3 {
+        text-align: center;
+      }
+      h1 {
+        display: inline;
+      }
+
+      i {
+        font-size: 50px;
+        color: darkblue;
+        padding: 10px;
+      }
+
+      header {
+        background-color: #7ab2b2;
+        padding: 15px;
+      }
+
+      main {
+        background-color: #cde8e5;
+        padding: 10px;
+        text-align: justify;
+      }
+
+      footer {
+        padding: 21px;
+        background: #4d869c;
+        color: white;
+        text-align: center;
+      }
+      a {
+        display: block;
+
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container-fluid text-center" id="home">
+      <div class="row">
+        <div class="col-lg-8">
+          <i class="fa-solid fa-book"></i>
+
+          <h1>Welcome to the book store</h1>
+        </div>
+        <div class="col-lg-4">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#aboutMe">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="container-fluid" id="aboutMe">
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>Column-01</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            distinctio hic asperiores perspiciatis unde sed vero est veniam
+            provident nisi. Quas ipsam quis recusandae saepe enim, vel cumque
+            aperiam repellendus debitis nesciunt architecto a distinctio, minima
+            deleniti quos hic tenetur cupiditate sint excepturi velit laborum
+            aliquid eligendi. Exercitationem, laborum ratione temporibus
+            asperiores dolore voluptatem iste amet voluptas distinctio dolorem
+            quidem repellendus dignissimos vitae dolor, nostrum eveniet? Quidem
+            dolores alias eos aliquid dolor atque sapiente vero. Officia,
+            dolorum perferendis eligendi nihil magni porro quia, at perspiciatis
+            modi repellendus beatae odio quasi numquam fuga maxime accusantium
+            sequi cum earum neque delectus, corrupti inventore. Itaque esse hic
+            excepturi optio odio libero temporibus tenetur. Illum voluptatum
+            odio similique hic, architecto voluptates laboriosam provident sunt,
+            laudantium consectetur optio fugit iste non accusantium enim
+            voluptate, totam explicabo eligendi ipsam debitis vero corrupti sed.
+            Odit, eaque nesciunt rem quos aut sint a, unde nihil consequuntur
+            quia ad perspiciatis! Cumque, dicta consequuntur libero fuga nobis
+            velit, voluptatem nesciunt beatae sed, maiores praesentium. Sapiente
+            nam reprehenderit quas iure. Eligendi, quae quia! Eligendi, quaerat
+            provident hic expedita facere neque fugiat quisquam in ex inventore
+            ut rerum esse dolores odit maxime excepturi tempora laudantium eaque
+            et repellendus nam magni sed similique. Deleniti reiciendis rerum
+            voluptates accusantium delectus corporis quia assumenda atque
+            deserunt qui explicabo harum quidem dolorem incidunt, maxime ex
+            nobis saepe voluptatem blanditiis quam porro perferendis quas? Vero
+            sapiente a unde corporis neque blanditiis ut hic doloribus facilis
+            consequuntur dolores reprehenderit, et tempora atque officia
+            tempore, similique adipisci eveniet amet?.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <h3>Column-01</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
+            obcaecati consequatur totam laudantium cupiditate reprehenderit
+            molestias nostrum, optio accusantium quam alias corrupti nisi soluta
+            est dicta dolores modi repellat natus distinctio enim iste animi
+            ipsa. Minus quam vitae velit iste earum similique totam, id ea esse
+            necessitatibus eum magnam fugiat ipsa rerum facilis laudantium sequi
+            voluptatum aliquid tempore quo dolorum culpa. Laborum, ipsum quasi,
+            molestiae cupiditate quod fugiat ducimus reiciendis minima ab cumque
+            suscipit facere, eveniet delectus voluptates? Officiis error
+            obcaecati labore deleniti architecto ipsam iusto sunt saepe,
+            consequuntur, laborum ut quisquam esse, officia dignissimos hic?
+            Blanditiis accusantium libero quos reiciendis repellat atque
+            quisquam deleniti pariatur, impedit enim rem repellendus vel quam
+            architecto nemo ut molestiae iure harum aspernatur eos sequi ab sunt
+            nisi. Deleniti tempore minus veritatis recusandae, eum perspiciatis
+            at, autem rerum neque nesciunt modi fugiat! Deserunt, dolorum alias!
+            Nesciunt quisquam quam eum optio fugit odio. Non aperiam
+            voluptatibus eveniet, debitis aliquid molestiae dolores tempora
+            incidunt, nostrum quaerat numquam animi odio pariatur ipsa nisi
+            soluta quos sint. Saepe doloribus illo harum facere minus quibusdam
+            quod laboriosam ullam quia modi! Tempore dolores aliquam facere
+            architecto dolor voluptates, eius cupiditate quis mollitia facilis
+            nam et eveniet error quaerat minima beatae dolorem? Modi odit rerum
+            nemo assumenda itaque? Nesciunt officia eveniet quia maxime
+            deleniti. Atque blanditiis a odio ut autem dolorum sapiente soluta
+            libero unde cum praesentium, iusto tenetur accusantium adipisci
+            aperiam ipsa molestias perspiciatis! Tenetur laborum quibusdam
+            itaque, deserunt, perferendis optio corrupti accusantium molestiae
+            alias fuga architecto assumenda modi ab?
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="container-fluid" id="footer">
+      <div class="row">
+        <div class="col-lg-6">
+          <a class="text-light text-decoration-none" href="#home">Home</a>
+          <a class="text-light text-decoration-none" href="#aboutMe"
+            >About Me</a
+          >
+          <a class="text-light text-decoration-none" href="#footer">Contact</a>
+        </div>
+        <div class="col-lg-6"><p>&copy; copyright Md. Redwan Islam</p></div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
